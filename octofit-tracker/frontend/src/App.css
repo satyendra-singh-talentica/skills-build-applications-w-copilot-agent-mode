@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #6a11cb;
+}
+
+/* Bootstrap overrides */
+.navbar {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  box-shadow: 0 2px 8px rgba(38, 50, 56, 0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  color: #e0eafc !important;
+  font-size: 1.1rem;
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2575fc;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(38, 50, 56, 0.08);
+}
+.table-dark th {
+  background: #2575fc !important;
+  color: #fff !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e0eafc;
+}
+
+.btn {
+  border-radius: 24px;
+  font-weight: 500;
+  padding: 8px 24px;
+  transition: background 0.2s;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(38, 50, 56, 0.12);
+  background: #fff;
+}
+.card-title {
+  color: #2575fc;
+}
+.card-text {
+  color: #222;
+}
+
+/* Favicon and logo styles */
+.app-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
